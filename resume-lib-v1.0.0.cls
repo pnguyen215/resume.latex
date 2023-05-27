@@ -70,6 +70,16 @@
 % Needed for hanging indents
 \usepackage{hanging}
 \usepackage{grid-system-v1.0.0}
+% Needed for link
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue,
+    urlcolor = blue,
+    citecolor = blue
+}
+\urlstyle{same}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
